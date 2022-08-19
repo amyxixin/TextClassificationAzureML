@@ -75,3 +75,21 @@ Reference Paper: [Text Categorization via Similarity Search](https://arxiv.org/p
 ### The Reuters 21578 Dataset
 - Consists of documents from the Reuters newswire in 1987 used as a benchmark for text classifier algorithms
 - Only used single-labelled documents from the top 8 most frequent classes (R8 subset)
+
+### Configuration Settings
+- **Task type:** Multi-class classification
+- **Primary Metric:** AUC Weighted
+- **Explain best model**: enabled
+- **Blocked models:** TensorFlowDNN, TensorFlowLinearRegressor
+- **Deep Learning:** enabled
+- **Training Time (hours):** 1
+- **Metric Score Threshold:** --
+- **Max Concurrent Iteration:** 5
+
+### Model Results
+- **AUC Weighted:**: 0.99852
+- **Accuracy:** 0.97990
+- **F1 Score:** 0.97979
+
+![image](https://user-images.githubusercontent.com/22310955/185635009-92f3ba3f-f8ae-4ae5-b53f-ab2407e7a338.png)
+
